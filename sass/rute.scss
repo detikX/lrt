@@ -230,10 +230,11 @@
       .ag-timeline-card_meta {
         margin: 10px 0 0;
       
-        font-family: 'PT Serif', sans-serif;
-        font-weight: bold;
+        font-family: 'Prompt', sans-serif;
+        font-weight: 500;
         font-size: 28px;
-        color: #3a2c11
+        text-shadow: 2px 2px black;
+        color: #ccc
       }
       .ag-timeline-card_item {
         &::before {
