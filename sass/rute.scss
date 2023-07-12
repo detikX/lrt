@@ -338,8 +338,9 @@
         display: none;
         margin: 10px 0 0;
       
-        font-family: 'PT Serif', sans-serif;
-        font-weight: bold;
+        font-family: 'Prompt', sans-serif;
+        font-weight: 600;
+        text-shadow: 1px 1px black;
         font-size: 28px;
         color: #f5bd4c;
         @media screen and (max-width:766px) {
