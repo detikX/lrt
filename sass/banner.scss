@@ -1,6 +1,16 @@
 .banner {
     padding: 0;
     background: #98adae;
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 9;
+        right: 0;
+        background: linear-gradient(to top, #bef7fd, transparent);
+        height: 20%;;
+    }
     .rombongan {
         // position: absolute;
         // bottom: 0;
