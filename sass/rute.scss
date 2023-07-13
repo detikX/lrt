@@ -353,10 +353,12 @@
         font-weight: 600;
         text-shadow: 1px 1px black;
         font-size: 28px;
-        color: #f5bd4c;
+        // color: #f5bd4c;
+        color: white;
         @media screen and (max-width:766px) {
-          font-size: 20px;
-          line-height: 30px;
+          font-size: 1.4rem;
+          line-height: 1.6rem;
+          margin: 10px 0;
         }
       }
       .ag-timeline-card_desc {
