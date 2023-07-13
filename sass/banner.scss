@@ -10,7 +10,8 @@
         text-align: center;
         @media screen and (max-width:766px) {
             top: 32%;
-            left: 62%;
+            left: 50%;
+            width: 90%;
             text-align: right;
         }
     }
@@ -22,8 +23,8 @@
             line-height: 4.3rem;
 
             @media screen and (max-width:766px) {
-                font-size: 2.6rem;
-                line-height: 2.6rem;
+                font-size: 2.4rem;
+                line-height: 2.4rem;
             }
 
         
