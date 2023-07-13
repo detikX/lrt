@@ -8,6 +8,9 @@
         top: 37%;
         transform: translate(-50%, -50%);
         text-align: center;
+        @media screen and (max-width:766px) {
+            top: 30%;
+        }
     }
         h2 {
            
@@ -15,6 +18,11 @@
             color: #e24d49;
             text-shadow: 2px 2px #80abc6;
             line-height: 4.3rem;
+
+            @media screen and (max-width:766px) {
+                font-size: 3rem;
+                line-height: 3rem;
+            }
 
         
     }
