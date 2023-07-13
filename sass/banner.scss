@@ -1,6 +1,23 @@
 .banner {
     padding: 0;
     background: #98adae;
+    &__title {
+        position: absolute;
+        left: 50%;
+        width: 65%;
+        top: 37%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+        h2 {
+           
+            font-size: 4.3rem;
+            color: #e24d49;
+            text-shadow: 2px 2px #80abc6;
+            line-height: 4.3rem;
+
+        
+    }
     &::before {
         content: "";
         position: absolute;
