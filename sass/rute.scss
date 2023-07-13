@@ -342,6 +342,8 @@
         border-radius: 6px;
         position: relative;
         z-index: 20;
+        background: #404040;
+        backdrop-filter: blur(12px);
       }
       .ag-timeline-card_title {
         display: none;
