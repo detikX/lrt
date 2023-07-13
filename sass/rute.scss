@@ -7,6 +7,12 @@
         width: 100%;
         height: 100%;
         opacity: .08;
+        // &::before {
+        //   content: "";
+        //   position: absolute;
+        //   inset: 0;
+        //   background: linear-gradient(to bottom, transparent, #4e565d);
+        // }
         @media screen and (max-width:766px) {
             height: 100vh;
         }
@@ -43,6 +49,7 @@
       // display: none;
       background: #4e565d;
       position: relative;
+     
       &__bg {
         position: absolute;
         left: 0;
