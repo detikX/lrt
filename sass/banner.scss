@@ -9,7 +9,9 @@
         transform: translate(-50%, -50%);
         text-align: center;
         @media screen and (max-width:766px) {
-            top: 30%;
+            top: 32%;
+            left: 62%;
+            text-align: right;
         }
     }
         h2 {
@@ -20,8 +22,8 @@
             line-height: 4.3rem;
 
             @media screen and (max-width:766px) {
-                font-size: 3rem;
-                line-height: 3rem;
+                font-size: 2.6rem;
+                line-height: 2.6rem;
             }
 
         
