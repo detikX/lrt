@@ -38,6 +38,12 @@ main {
     }
 }
 
+.color {
+    &-blue {
+        color: #87c3d3;
+    }
+}
+
 .slick {
     &-slide {
         margin: 0 16px;

@@ -101,6 +101,12 @@
         // text-fill-color: transparent;
         // color: transparent;
         color: #e24d49;
+        width: fit-content;
+        margin: 0 auto;
+        display: block;
+        background: white;
+        border-bottom: 8px solid #5c81b1;
+        padding: 0 16px;
         font-weight: 600;
         font-size: 3rem;
         font-family: 'Prompt';
@@ -226,6 +232,7 @@
       }
       .ag-timeline-card_meta-box {
         display: inline-block;
+        width: 85%;
       }
       .ag-timeline-card_meta {
         margin: 10px 0 0;
@@ -245,7 +252,7 @@
           right: 0;
           border-radius: 6px;
           position: absolute;
-          background: rgba(48, 37, 14,.75);
+          // background: rgba(48, 37, 14,.75);
         }
         display: inline-block;
         width: 45%;
@@ -327,9 +334,11 @@
       .ag-timeline-card_img {
         width: 100%;
         border-radius: 6px 6px 0 0;
+        height: 100%;
+        object-fit: cover;
       }
       .ag-timeline-card_info {
-        padding: 20px 30px;
+        padding: 16px;
         border-radius: 6px;
         position: relative;
         z-index: 20;
