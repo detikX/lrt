@@ -140,6 +140,15 @@ main {
     z-index: 108;
 }
 
+.font {
+    &-bold {
+        font-weight: 700;
+    }
+    &-13 {
+        font-size: 1.3rem;
+    } 
+}
+
 .share_icon>a i {
     font-size: 25px;
     line-height: initial;

@@ -1,0 +1,253 @@
+.fasilitas {
+    background: #c3e8ee;
+    h3 {
+        font-size: 3rem;
+        // font-family: 'sans-serif';
+        @media screen and (max-width:766px) {
+            font-size: 2.3rem;
+        }
+    }
+    .typewriter {
+        position: relative;
+        width: fit-content;
+        margin: 0 auto;
+        display: block;
+        // text-shadow: 2px 2px ;
+        color: #fff;
+        background: #333;
+        padding: 16px 24px;
+        &::after {
+            content: "";
+            position: absolute;
+            right: 0;
+            top: -35%;
+            left: 0;
+            transform: translate(-14.3%, 0);
+            height: 2px;
+            z-index: -1;
+            font-weight: 400;
+            width: 147.3%;
+            height: 82%;
+            border: 5px solid #c3e8ee;
+    
+            @media screen and (max-width:766px) {
+               transform: translate(-15%, 0)
+            }
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            right: 0;
+            top: -35%;
+            left: 0;
+            transform: translate(-15%,0);
+            height: 2px;
+            z-index: -1;
+            font-weight: 400;
+            /* background: #333; */
+            width: 150%;
+            height: 90%;
+            border: 5px solid #333;
+        }
+    }
+
+    .content {
+        &__sub {
+            color: #e24d49;
+            width: fit-content;
+            padding: 8px;
+            // color: white;
+            h4 {
+                margin-bottom: 0;
+                font-size: 2.5rem;
+                font-weight: 600;
+            }
+        }
+        .animasi {
+            position: relative;
+        }
+
+          
+          @keyframes MoveUpDown {
+            0%, 100% {
+              left: 0;
+              opacity: 0;
+            }
+            10% {
+                left: 0;
+              opacity: .3;
+            }
+            20% {
+                left: 0%;
+              opacity: 1;
+            }
+            30% {
+                left: 2%;
+                opacity:1 ;
+            }
+            40% {
+                left: 5%;
+              opacity: 1;
+            }
+            50% {
+              left: 15%;
+              opacity: 1;
+            }
+            60% {
+                left: 20%;
+                opacity: 1;
+              }
+              70% {
+                left: 25%;
+                opacity: 1;
+              }
+              80% {
+                left: 25%;
+                opacity: 1;
+              }
+              90% {
+                left: 25%;
+                opacity: .5;
+              }
+              95% {
+                left: 25%;
+                opacity: 0;
+              }
+          }
+        .kereta {
+            animation: MoveUpDown 4s linear infinite;
+            width: 200px;
+            position: absolute;
+            left: 0;
+            opacity: 0;
+            @media screen and (max-width:766px)  {
+                width: 120px;
+            }
+            .name {
+                text-align: center;
+                font-size: 1rem;
+                font-weight: 600;
+
+            }
+            .img {
+                width: 100%;
+                height: auto;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+
+            }
+        }
+
+        @keyframes krl {
+            0%, 100% {
+              left: 50%;
+              opacity: 0;
+            }
+            10% {
+                left: 50%;
+              opacity: .3;
+            }
+            20% {
+                left: 50%;
+              opacity: 1;
+            }
+            30% {
+                left: 52%;
+                opacity:1 ;
+            }
+            40% {
+                left: 55%;
+              opacity: 1;
+            }
+            50% {
+              left: 65%;
+              opacity: 1;
+            }
+            60% {
+                left: 70%;
+                opacity: 1;
+              }
+              70% {
+                left: 75%;
+                opacity: 1;
+              }
+              80% {
+                left: 75%;
+                opacity: 1;
+              }
+              90% {
+                left: 75%;
+                opacity: .5;
+              }
+              95% {
+                left: 75%;
+                opacity: 0;
+              }
+          }
+
+        .krl {
+            width: 200px;
+            position: absolute;
+            animation: krl 8s linear infinite;
+            @media screen and (max-width:766px)  {
+                width: 150px;
+            }
+            left: 50%;
+            .name {
+                text-align: center;
+                font-size: 1rem;
+                font-weight: 600;
+
+            }
+            .img {
+                width: 100%;
+                height: auto;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+
+            }
+        }
+
+        .busway {
+            position: absolute;
+            top: 60px;
+            left: 50%;
+            .name {
+                font-size: 1rem;
+                text-align: center;
+                font-weight: 600;
+            }
+            .img {
+                height: auto;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+
+            }
+            width: 120px;
+            @media screen and (max-width:766px)  {
+                width: 80px;
+            }
+        }
+    }
+    @keyframes typing {
+        to {
+            width: 100%;
+        }   
+    }
+
+    @keyframes line {
+        50% {
+            color: transparent;
+
+        }
+    }
+}

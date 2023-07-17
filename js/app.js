@@ -6,7 +6,6 @@ $(document).ready(function() {
 
 
 
-
 // $(".data-detail").hide()
 $(".gambar").click(function(){
     var id_ = $(this).attr('id')
