@@ -68,7 +68,7 @@
         }
 
           
-          @keyframes MoveUpDown {
+          @keyframes lrt {
             0%, 100% {
               left: 0;
               opacity: 0;
@@ -115,7 +115,7 @@
               }
           }
         .kereta {
-            animation: MoveUpDown 4s linear infinite;
+            animation: lrt 4s linear infinite;
             width: 200px;
             position: absolute;
             left: 0;
