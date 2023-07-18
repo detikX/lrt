@@ -11,7 +11,7 @@
             inset: initial;
             width: 100%;
             height: auto;
-            bottom: 0;
+            bottom: 60px;
             left: 0;
             right: 0;
         
@@ -82,7 +82,7 @@
       animation: busway 7s linear infinite;
       left: 30%;
       @media screen and (max-width:766px) {
-        bottom: 0;
+        bottom: 60px;
       }
       .name {
         font-size: 1rem;
