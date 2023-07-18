@@ -1,0 +1,115 @@
+.rutex {
+    padding: 0;
+    z-index: 5;
+    .img {
+        // position: absolute;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        // z-index: 34;
+        .kota {
+            width: 100vw;
+            height: 100vh;
+            @media screen and (max-width:766px) {
+                width: 100vw;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+      
+        .lrt {
+            width: 100vw;
+            height: 60vh;
+            transform: rotateY(0);
+            position: absolute;
+            bottom: 0;
+            // animation: linear infinite;
+            // animation-name: banner;
+            // animation-duration: 13s;
+            // left: 0;
+            right: 0;
+            @media screen and (max-width:766px) {
+                height: 50vh;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+
+
+//gsap
+.containerx {
+    width: 300vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    // z-index: 33;
+    h3 {
+        position: absolute;
+        z-index: 99;
+        color: red;
+        background: white;
+        top: 0;
+    }
+}
+
+.panel {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+
+    .descr {
+        position: absolute;
+        right: 5vw;
+        bottom: 5vh;
+        padding: 4px;
+        color: white;
+        max-width: 320px;
+        background: rgba($color: #000000, $alpha: .5);
+
+        @media screen and (max-width: 766px) {
+            background: rgba($color: #000000, $alpha: .5);
+            width: 50vw;
+            font-size: 11px;
+        }
+
+        &.rightxz {
+            right: initial !important;
+            left: 5vw;
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.red {
+    background: transparent;
+}
+
+.blue {
+    background: transparent;
+}
+
+.orange {
+    background: transparent;
+}
+
+.purple {
+    background: transparent;
+}
