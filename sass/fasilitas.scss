@@ -25,6 +25,88 @@
             }
         }
     }
+    @keyframes busway {
+      0%, 100% {
+        left: 30%;
+        opacity: 0;
+      }
+      10% {
+          left: 30%;
+        opacity: .3;
+      }
+      20% {
+          left: 30%;
+        opacity: 1;
+      }
+      30% {
+          left: 30%;
+          opacity:1 ;
+      }
+      // 40% {
+      //     left: 30%;
+      //   opacity: 1;
+      // }
+      // 50% {
+      //   left: 45%;
+      //   opacity: 1;
+      // }
+      // 60% {
+      //     left: 50%;
+      //     opacity: 1;
+      //   }
+      //   70% {
+      //     left: 55%;
+      //     opacity: 1;
+      //   }
+        80% {
+          left: 75%;
+          opacity: 1;
+        }
+        85% {
+          left: 75%;
+          opacity: .8;
+        }
+        90% {
+          left: 75%;
+          opacity: .5;
+        }
+        95% {
+          left: 75%;
+          opacity: 0;
+        }
+    }
+
+  .busway {
+      position: absolute;
+      bottom: 60px;
+      animation: busway 7s linear infinite;
+      left: 30%;
+      @media screen and (max-width:766px) {
+        bottom: 0;
+      }
+      .name {
+        font-size: 1rem;
+          text-align: center;
+          font-weight: 600;
+      }
+      .img {
+        width: 420px;
+          height: auto;
+          @media screen and (max-width:766px) {
+            width: 100px;
+          }
+          img {
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+          }
+
+      }
+      width: 120px;
+      @media screen and (max-width:766px)  {
+          width: 80px;
+      }
+  }
     h3 {
         font-size: 3rem;
         // font-family: 'sans-serif';
@@ -240,7 +322,7 @@
             }
         }
 
-        @keyframes busway {
+        /*@keyframes busway {
             0%, 100% {
               left: 50%;
               opacity: 0;
@@ -310,7 +392,7 @@
             @media screen and (max-width:766px)  {
                 width: 80px;
             }
-        }
+        }*/
     }
     @keyframes typing {
         to {
