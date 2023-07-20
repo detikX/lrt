@@ -1,5 +1,14 @@
 .fasilitas {
     background:linear-gradient(to top, #d6e0f0, #c3e8ee);
+    .kota {
+      position: absolute;
+      bottom: 0;
+    }
+    .jalan{
+      position: absolute;
+      bottom: 0;
+      z-index: 2;
+    }
     .stat {
         position: absolute;
         inset: 0;

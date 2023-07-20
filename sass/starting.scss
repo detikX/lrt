@@ -1,0 +1,126 @@
+.starting {
+    background: #96c6cf;
+    padding: 0;
+    .all-rutes {
+        // position: relative;
+        .cibubur {
+            top: 25vh;
+            right: 5vw;
+            position: absolute;
+            @media screen and (max-width:766px) {
+                right: 2vw;
+            }
+            &::before {
+                @media screen and (max-width:766px) {
+                    content: "";
+                    position: absolute;
+                    left: 15px;
+                    top: 20px;
+                    height: 125px;
+                    width: 2px;
+                    background: #333;
+                }
+            }
+            .ruteb {
+                @media screen and (max-width:766px) {
+                    width: 45vw;
+                    // margin-left: 8px;
+                    right: 2vw;
+                }
+               
+                padding: 16px;
+                width: 420px;
+                background: rgba(white,.5);
+               
+            }
+        }
+        .bekasi {
+            
+            top: 25vh;
+            left: 5vw;
+            position: absolute;
+            @media screen and (max-width:766px) {
+                left: 2vw;
+            }
+            &::before {
+                @media screen and (max-width:766px) {
+                    content: "";
+                    position: absolute;
+                    left: 15px;
+                    top: 20px;
+                    height: 175px;
+                    width: 2px;
+                    background: #333;
+                }
+            }
+
+            .rutea {
+                padding: 16px;
+                width: 420px;
+                background: rgba(white,.5);
+                @media screen and (max-width:766px) {
+                    width: 45vw;
+                    left: 2vw;
+                }
+            }
+        }
+        .name {
+            // font-weight: 600;
+            font-size: 1.3rem;
+            display: inline-block;
+            margin: 0px 8px;
+            @media screen and (max-width:766px) {
+                font-size: 1.1rem;
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                // left: -8px;
+                margin-left: -12px;
+                margin-top: 12px;
+                background-color: #455169;
+                @media screen and (max-width:766px) {
+                    margin-top: 8px;
+                }
+            }
+            
+        }
+    }
+    
+   
+    .lrt-gede {
+        position: absolute;
+        left: -50vw;
+        bottom: 25vh;
+        width: 100%;
+        height: auto;
+        @media screen and (max-width:766px) {
+            bottom: 50px;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    .img {
+        width: 100%;
+        height: 100vh;
+        @media screen and (max-width:766px) {
+            position: absolute;
+            bottom: 0px;
+            height: auto;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            @media screen and (max-width:766px) {
+                object-fit: contain;
+            }
+        }
+    }
+}
