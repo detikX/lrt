@@ -89,22 +89,33 @@
     
     @keyframes busway_jalan {
       0%, 100% {
-        left: 50%;
+        left: 30%;
       }
       50% {
-        left: 53%;
+        left: 33%;
+        
+      }
+    }
+    @keyframes busway_jalan_mob {
+      0%, 100% {
+        left: 60%;
+      }
+      50% {
+        left: 63%;
         
       }
     }
   .busway {
       position: absolute;
-      bottom: 60px;
+      bottom: 16px;
       z-index: 8;
-      animation: busway_jalan 1.3s linear infinite;
+      animation: busway_jalan 3s linear infinite;
       // animation: busway 7s linear infinite;
-      left: 50%;
+      left: 30%;
       @media screen and (max-width:766px) {
-        bottom: 60px;
+        bottom: 85px;
+        left: 60%;
+        animation: busway_jalan_mob 3s linear infinite;
       }
       .name {
         font-size: 1rem;
@@ -161,11 +172,21 @@
     }
   }
 
+  @keyframes krl_jalan {
+    0%, 100% {
+      left: -30vw;
+    }
+    50% {
+      left: -27vw;
+      
+    }
+  }
   .krl {
     position: absolute;
     width: 100%;
     height: auto;
     bottom: 21vh;
+    animation: krl_jalan 1.5s linear infinite;
     left: -30vw;
     @media screen and (max-width:766px) {
       bottom: 100px;
