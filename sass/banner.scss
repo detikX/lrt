@@ -43,15 +43,16 @@
         // position: absolute;
         // bottom: 0;
         // left: 0;
+        
         .org {
             position: absolute;
             bottom: 0;
-            width: 200px;
-            height: 360px;
-            @media screen and (max-width:766px) {
-                bottom: 10%;
-                width: 170px;
-            }
+            width: 70vw;
+            height: 70vh;
+            // @media screen and (max-width:766px) {
+            //     bottom: 10%;
+            //     width: 170px;
+            // }
             img {
                 width: 100%;
                 height: 100%;
@@ -76,6 +77,25 @@
                         left: 20%;
                     }
                 }
+                &-4 {
+                    left: 35%;
+                    z-index: 6;
+                    @media screen and (max-width:766px) {
+                        // left: 20%;
+                    }
+                }
+                &-5 {
+                    left: 35%;
+                    width: 42vw;
+                    bottom: 20vh;
+                    height: 42vh;
+                    @media screen and (max-width:766px) {
+                        left: 42%;
+                        width: 45vw;
+                        height: 45vh;
+                        
+                    }
+                }
             }
         }
     }
@@ -83,7 +103,7 @@
         width: 100%;
         height: 100vh;
         @media screen and(max-width:766px) {
-            height: 75vh;
+            height: 100vh;
         }
         img {
             width: 100%;
@@ -92,6 +112,19 @@
             @media screen and (max-width:766px) {
                 object-fit: cover;
             }
+        }
+    }
+
+    .keretas {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: auto;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
     }
 }
