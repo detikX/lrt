@@ -1,6 +1,70 @@
 .starting {
     background: #96c6cf;
     padding: 0;
+    .titles {
+        display: none;
+        @media screen and (max-width:766px) {
+            position: absolute;
+            left: 50%;
+            display: block;
+            top: 15%;
+            background: #e24d49;
+            color: white;
+            width: 80%;
+            text-align: center;
+            transform: translate(-50%,0%);
+            h3 {
+                @media screen and (max-width:766px) {
+                    font-size: 2.2rem;
+                    padding: 0;
+                    margin: 0;
+                    
+                    
+                }
+            }
+            
+        }
+    }
+    .penumpang {
+        .org {
+            position: absolute;
+            bottom: 5vh; 
+            width: 10vw;
+            height: auto;
+            @media screen and (max-width:766px) {
+                bottom: 3vh;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+            &-1 {
+                left: 30%;
+            }
+            &-2 {
+                left: 5%;
+                z-index: 3;
+                width: 6vw;
+                bottom: 19%;
+                @media screen and (max-width:766px) {
+                    bottom: 6vh;
+                }
+            }
+            &-3 {
+                left: 18%;
+                bottom: 15vh;
+                width: 5vw;
+                @media screen and (max-width:766px) {
+                    bottom: 5vh;
+                }
+            }
+            &-4 {
+                left: 66%;
+                width: 7vw;
+            }
+        }
+    }
     .all-rutes {
         // position: relative;
         .cibubur {
@@ -22,6 +86,30 @@
                 }
             }
             .ruteb {
+                &::before {
+                    @media screen and (max-width:766px) {
+                        content: "";
+                        position: absolute;
+                        height: 200px;
+                        width: 200px;
+                        top: 23vh;
+                        z-index: -1;
+                        border: 3px dashed;
+                        right: -22vw;                    
+                    }
+                }
+                &::after {
+                    @media screen and (max-width:766px) {
+                        content: "";
+                        position: absolute;
+                        height: 200px;
+                        width: 200px;
+                        top: 22.8vh;
+                        z-index: -1;
+                        border: 6px solid #92c8d2;
+                        right: -23vw;
+                    }
+                }
                 @media screen and (max-width:766px) {
                     width: 45vw;
                     // margin-left: 8px;
@@ -58,6 +146,30 @@
                 padding: 16px;
                 width: 420px;
                 background: rgba(white,.5);
+                &::before {
+                    @media screen and (max-width:766px) {
+                        content: "";
+                        position: absolute;
+                        height: 200px;
+                        width: 200px;
+                        top: 30vh;
+                        z-index: -1;
+                        border: 3px dashed;
+                        left: -22vw;                    
+                    }
+                }
+                &::after {
+                    @media screen and (max-width:766px) {
+                        content: "";
+                        position: absolute;
+                        height: 200px;
+                        width: 200px;
+                        top: 29.8vh;
+                        z-index: -1;
+                        border: 6px solid #92c8d2;
+                        left: -23vw;
+                    }
+                }
                 @media screen and (max-width:766px) {
                     width: 45vw;
                     left: 2vw;
@@ -71,6 +183,7 @@
             margin: 0px 8px;
             @media screen and (max-width:766px) {
                 font-size: 1.1rem;
+                color: #0a637d;
             }
             &::before {
                 content: "";
@@ -93,7 +206,7 @@
    
     .lrt-gede {
         position: absolute;
-        left: -50vw;
+        left: -30vw;
         bottom: 20vh;
         width: 100%;
         height: auto;

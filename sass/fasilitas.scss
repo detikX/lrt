@@ -257,10 +257,12 @@
 
     .content {
         &__sub {
-            color: #e24d49;
+            background: #e24d49;
             width: fit-content;
             padding: 8px;
-            // color: white;
+            color: white;
+            margin-bottom: 16px;
+            transform: rotate(-3deg);
             h4 {
                 margin-bottom: 0;
                 font-size: 2.5rem;
