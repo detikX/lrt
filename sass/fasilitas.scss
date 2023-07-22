@@ -1,5 +1,36 @@
+.cek {
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 20px;
+    @media screen and (max-width:766px) {
+      bottom: 60px;
+      height: 10px;
+      display: none;
+      background: repeating-linear-gradient(
+        to right,
+        #3d3d3d 0px,
+        #2e2e2e 20px,
+        #fff 20px,
+        #fafafa 40px
+      );
+    }
+    background: repeating-linear-gradient(
+    to right,
+    #3d3d3d 0px,
+    #2e2e2e 40px,
+    #fff 40px,
+    #fafafa 80px
+  );
+  }
+}
+
 .fasilitas {
     background:linear-gradient(to top, #d6e0f0, #c3e8ee);
+    
     .kota {
       position: absolute;
       bottom: 0;
