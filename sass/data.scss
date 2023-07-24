@@ -38,7 +38,7 @@
         @keyframes banner {
             0% {
                 transform: rotateY(180deg);
-                right: -270px;
+                right: -1500px;
             }
             50% {
                 transform: rotateY(180deg);
@@ -46,11 +46,11 @@
             }
             51% {
                 transform: rotateY(0deg);
-                right: calc(100% + 270px);
+                right: calc(100% + 1500px);
             }
             100% {
                 transform: rotateY(0deg);
-                right: -270px;
+                right: -1500px;
             }
         }
         .jemb {
@@ -80,9 +80,9 @@
             bottom: 0;
             animation: linear infinite;
             animation-name: banner;
-            animation-duration: 13s;
+            animation-duration: 15s;
             // left: 0;
-            right: 0;
+            right: -1500px;
             @media screen and (max-width:766px) {
                 height: auto;
                 width: 180vw;

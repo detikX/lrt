@@ -10,6 +10,17 @@
         height: 80px;
         background: linear-gradient(to bottom, transparent, #c4e8ef);
       }
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 30vh;
+        background: 100px;
+        background: #acb8bf;
+      }
     .bgbg {
         display: none;
         @media screen and (max-width:766px) {
@@ -243,7 +254,7 @@
         bottom: 20vh;
         width: 100%;
         height: auto;
-        z-index: 11;
+        z-index:0;
         @media screen and (max-width:766px) {
             bottom: 50px;
         }
