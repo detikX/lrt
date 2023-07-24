@@ -119,30 +119,30 @@
                 }
             }
             .ruteb {
-                &::before {
-                    @media screen and (max-width:766px) {
-                        content: "";
-                        position: absolute;
-                        height: 200px;
-                        width: 200px;
-                        top: 23vh;
-                        z-index: 9;
-                        border: 3px dashed;
-                        right: -22vw;                    
-                    }
-                }
-                &::after {
-                    @media screen and (max-width:766px) {
-                        content: "";
-                        position: absolute;
-                        height: 200px;
-                        width: 200px;
-                        top: 22.8vh;
-                        z-index: 9;
-                        border: 6px solid #92c8d2;
-                        right: -23vw;
-                    }
-                }
+                // &::before {
+                //     @media screen and (max-width:766px) {
+                //         content: "";
+                //         position: absolute;
+                //         height: 200px;
+                //         width: 200px;
+                //         top: 23vh;
+                //         z-index: 9;
+                //         border: 3px dashed;
+                //         right: -22vw;                    
+                //     }
+                // }
+                // &::after {
+                //     @media screen and (max-width:766px) {
+                //         content: "";
+                //         position: absolute;
+                //         height: 200px;
+                //         width: 200px;
+                //         top: 22.8vh;
+                //         z-index: 9;
+                //         border: 6px solid #92c8d2;
+                //         right: -23vw;
+                //     }
+                // }
                 @media screen and (max-width:766px) {
                     width: 45vw;
                     // margin-left: 8px;
@@ -179,30 +179,30 @@
                 padding: 16px;
                 width: 420px;
                 background: rgba(white,.5);
-                &::before {
-                    @media screen and (max-width:766px) {
-                        content: "";
-                        position: absolute;
-                        height: 200px;
-                        width: 200px;
-                        top: 30vh;
-                        z-index: 9;
-                        border: 3px dashed;
-                        left: -22vw;                    
-                    }
-                }
-                &::after {
-                    @media screen and (max-width:766px) {
-                        content: "";
-                        position: absolute;
-                        height: 200px;
-                        width: 200px;
-                        top: 29.8vh;
-                        z-index: 9;
-                        border: 6px solid #92c8d2;
-                        left: -23vw;
-                    }
-                }
+                // &::before {
+                //     @media screen and (max-width:766px) {
+                //         content: "";
+                //         position: absolute;
+                //         height: 200px;
+                //         width: 200px;
+                //         top: 30vh;
+                //         z-index: 9;
+                //         border: 3px dashed;
+                //         left: -22vw;                    
+                //     }
+                // }
+                // &::after {
+                //     @media screen and (max-width:766px) {
+                //         content: "";
+                //         position: absolute;
+                //         height: 200px;
+                //         width: 200px;
+                //         top: 29.8vh;
+                //         z-index: 9;
+                //         border: 6px solid #92c8d2;
+                //         left: -23vw;
+                //     }
+                // }
                 @media screen and (max-width:766px) {
                     width: 45vw;
                     left: 2vw;
