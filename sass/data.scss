@@ -53,6 +53,25 @@
                 right: -270px;
             }
         }
+        .jemb {
+            position: absolute;
+            width: 100vw;
+            height: auto;
+            z-index: 8;
+            transform: scale(1.3);
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+            @media screen and (max-width:766px) {
+                transform: scale(3);
+                bottom: 60px;
+            }
+        }
         .lrt {
             width: 100vw;
             height: 45vh;
@@ -65,8 +84,9 @@
             // left: 0;
             right: 0;
             @media screen and (max-width:766px) {
-                height: 50vh;
+                height: auto;
                 width: 180vw;
+                bottom: 120px;
             }
             img {
                 width: 100%;
