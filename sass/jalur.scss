@@ -3,14 +3,28 @@
     padding: 0;
     .wrap {
         position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 11;
-   
-    transform: translate(-50%,-50%);
-    margin: 0 auto;
-    display: block;
-    text-align: center;
+        top: 30%;
+        left: 50%;
+        width: 50%;
+        z-index: 11;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        @media screen and (max-width:766px) {
+            width: fit-content;
+        }
+        &::before {
+            @media screen and (max-width:766px) {
+                content: "";
+                position: absolute;
+                left: -16px;
+                height: 90%;
+                top: 5%;
+                width: 3px;
+                background: #333;
+            }
+        }
     }
     .img {
         position: sticky;
@@ -22,8 +36,6 @@
        
         &-1 {
             position: absolute;
-            // opacity: 0;
-            // transform: scale(1);
             bottom: 0px;
             left: 0;
             right: 0;
@@ -51,13 +63,12 @@
         &-3 {
             position: absolute;
             top: 0;
-            animation: kokpit 2s linear infinite;
+            // animation: kokpit 2s linear infinite;
             bottom: 0px;
             left: 0;
             right: 0;
             width: 100%;
             height: auto;
-            z-index: 4;
             img {
                 width: 100%;
                 height: 100%;
@@ -112,10 +123,43 @@
     }
     .nama-stasiun{
         background: #444e57;
+        // background: rgba($color: #444e57, $alpha: .8);
         width: fit-content;
-
+        display: inline-block;
         color: white;
-        margin: 16px auto;
+        border-radius: 8px;
         padding: 16px;
+        margin: 8px 4px 24px;
+        position: relative;
+        &::before {
+            @media screen and (max-width:766px) {
+                content: "";
+                position: absolute;
+                left: -20px;
+                width: 12px;
+                top: 45%;
+                height: 12px;
+                background: #333;
+                border-radius: 50%;
+            
+            }
+        }
+        // &::after {
+        //     content: "";
+        //     position: absolute;
+        //     top: 50%;
+        //     width: 50px;
+        //     height: 30px;
+        //     border: 2px solid white;
+        // }
+        @media screen and (max-width:766px) {
+            margin: 8px 0px;
+            display: block;
+            
+        }
+    }
+
+    .fini {
+        background: #e24d49 !important;
     }
 }
