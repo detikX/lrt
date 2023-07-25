@@ -56,9 +56,11 @@
             content: "";
             position: absolute;
             inset: 0;
-            background: linear-gradient(to top, #4e565d, transparent);
+            background: linear-gradient(to top, #C4E8ED 5%, transparent 25%);
+            
             @media screen and (max-width:766px) {
-                background: linear-gradient(to bottom, #4e565d, transparent);
+                // background: linear-gradient(to bottom, #4e565d, transparent);
+                background: linear-gradient(to top, #C4E8ED 5%, transparent 45%);
                 
             }
         }
