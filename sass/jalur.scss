@@ -1,3 +1,136 @@
 .jalur {
-    background: ;
+    background: #d4e8f9;
+    padding: 0;
+    .img {
+        position: sticky;
+        inset: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+       
+        @keyframes gedung {
+            0% {
+                bottom: 0px;
+              }
+            20% {
+                bottom: 0;
+            }
+            50% {
+              bottom: 10px;
+            }
+            100% {
+
+                bottom: 0px;
+            }
+          }
+        &-1 {
+            position: absolute;
+            // opacity: 0;
+            // transform: scale(1);
+            bottom: 0px;
+            left: 0;
+            right: 0;
+            // top: 0;
+            animation: gedung 3s linear infinite;
+            width: 100%;
+            z-index: 0;
+            height: 100vh;
+            @media screen and (max-width:766px) {
+                height: 60vh;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        @keyframes kokpit {
+            0%, 100% {
+              bottom: 0px;
+            }
+            50% {
+              bottom: -10px;
+              
+            }
+          }
+        &-3 {
+            position: absolute;
+            top: 0;
+            animation: kokpit 2s linear infinite;
+            bottom: 0px;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: auto;
+            z-index: 4;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        @keyframes rel {
+            0%, 100% {
+              bottom: 0px;
+              transform: scale(1);
+            }
+            50% {
+              bottom: -30px;
+              transform: scale(1.3);
+              
+            }
+          }
+        &-2 {
+            position: absolute;
+            // transform: scale(1);
+            /* inset: 0; */
+            // animation: rel 8s linear infinite;
+            width: auto;
+            height: auto;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            @media screen and (max-width:766px) {
+                top: 0;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        @media screen and (max-width:766px) {
+            position: absolute;
+            width: 150%;
+            height: 50%;
+            bottom: 0;
+            left: initial;
+            right: -20%;
+            top: initial;
+            
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            @media screen and (max-width:766px) {
+                object-fit: contain;
+            }
+        }
+    }
+    .h-vh {
+        // height: 50vh;
+        // position: relative;
+        // z-index: -1;
+        // position: absolute;
+    }
+    .nama-stasiun{
+        background: #444e57;
+        width: fit-content;
+        position: absolute;
+
+        color: white;
+        padding: 16px;
+    }
 }
