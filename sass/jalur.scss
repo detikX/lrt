@@ -156,6 +156,7 @@
         width: fit-content;
         display: inline-block;
         color: white;
+        z-index: 6;
         border-radius: 8px;
         padding: 16px;
         margin: 8px 4px 24px;
@@ -191,5 +192,22 @@
 
     .fini {
         background: #e24d49 !important;
+        
+    }
+
+    .last {
+        border: 2px dashed;
+        padding: 0px;
+        font-size: .75rem;
+        margin-left: -4px;
+        // &::before {
+        //     content: "";
+        //     position: absolute;
+        //     left: -40px;
+        //     height: 2px;
+        //     width: 40px;
+        //     background: red;
+        //     z-index: -1;
+        // }
     }
 }
