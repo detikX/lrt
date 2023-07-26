@@ -80,13 +80,15 @@
             bottom: 22%;
             animation: linear infinite;
             animation-name: banner;
-            animation-duration: 15s;
+            animation-duration: 20s;
             // left: 0;
             right: -1370px;
+           
             @media screen and (max-width:766px) {
                 height: auto;
                 width: 180vw;
                 bottom: 130px;
+                animation-duration: 15s;
             }
             img {
                 width: 100%;
