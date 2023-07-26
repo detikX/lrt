@@ -18,12 +18,13 @@
         right: -8vw;
         bottom: -15vh;
         width: 60vw;
-        height: 66vh;
+        height: 75vh;
         z-index: 12;
         @media screen and (max-width:766px) {
             width: 30vw;
             right: 5vw;
             bottom: -25vh;
+            height: 70vh;
         }
         img {
             width: 100%;
@@ -103,7 +104,7 @@
             position: absolute;
             bottom: 5vh;
             z-index: 12; 
-            width: 10vw;
+            width: 9vw;
             height: auto;
             @media screen and (max-width:766px) {
                 bottom: 3vh;

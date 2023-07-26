@@ -39,6 +39,24 @@
         background: linear-gradient(to top, #bef7fd, transparent);
         height: 50px;
     }
+    .kereta {
+        position: absolute;
+        left: 31%;
+        top: 60%;
+        transform: translate(-50%, -50%);
+        width: 45%;
+        @media screen and (max-width:766px) {
+            
+            left: 37%;
+            top: 54%;
+            width: 60%;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
     .rombongan {
         // position: absolute;
         // bottom: 0;
