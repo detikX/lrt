@@ -41,7 +41,7 @@
     right: 0;
     @media screen and (max-width:766px) {
       
-      bottom: 90px;
+      bottom: 150px;
       width: 100%;
       height: 7vh;
     }
@@ -72,7 +72,7 @@
             inset: initial;
             width: 100%;
             height: auto;
-            bottom: 60px;
+            bottom: 120px;
             left: 0;
             right: 0;
         
@@ -165,7 +165,7 @@
       // animation: busway 7s linear infinite;
       left: 30%;
       @media screen and (max-width:766px) {
-        bottom: 75px;
+        bottom: 135px;
         left: 60%;
         animation: busway_jalan_mob 3s linear infinite;
       }
@@ -211,7 +211,7 @@
     width: 100%;
     height: auto;
     @media screen and (max-width:766px) {
-      bottom: 140px;
+      bottom: 200px;
     }
     .img {
       width: 100%;
@@ -241,7 +241,7 @@
     animation: krl_jalan 1.5s linear infinite;
     left: -20vw;
     @media screen and (max-width:766px) {
-      bottom: 90px;
+      bottom: 150px;
       // left: -40vw;
       width: 80%;
     }

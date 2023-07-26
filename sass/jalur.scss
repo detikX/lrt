@@ -93,6 +93,33 @@
                 object-fit: contain;
             }
         }
+
+        @keyframes awans {
+            0%, 100% {
+              left: 25%;
+            }
+            50% {
+              left: 27%;
+              
+            }
+          }
+        &-4 {
+            display: none;
+            @media screen and (max-width:766px) {
+                display: block;
+                animation: awans 2s linear infinite;
+                position: absolute;
+                top: -5%;
+                left: 25%;
+                width: 80px;
+                height: auto;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
         @media screen and (max-width:766px) {
             position: absolute;
             width: 150%;
