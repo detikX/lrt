@@ -1,6 +1,17 @@
 .jalur {
     background: #d4e8f9;
     padding: 0;
+    .bg-help {
+        background: rgba($color: white, $alpha: .6);
+        padding: 8px;
+        .title {
+            font-weight: 600;
+            font-size: 1.4rem;
+        }
+        p {
+            margin-bottom: 0;
+        }
+    }
     h3 {
         font-weight: 600;
     }
@@ -85,15 +96,29 @@
             right: 0;
             width: 100%;
             height: auto;
+            // &::before {
+            //     content: "";
+            //     position: absolute;
+            //     background: linear-gradient(to top,transparent, #d4e8f9);
+            //     top: 0;
+            //     left: 0;
+            //     right: 0;
+            //     height: 100px;
+            // }
             @media screen and (max-width:766px) {
-                height: 150vh;
-                width: 141%;
-                left: -21%;
+                height: 160vh;
+                width: 150%;
+                left: -30%;
+                right: 30%;
+                overflow-x: hidden;
             }
             img {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
+                @media screen and (max-width:766px) {
+                    object-fit: contain;
+                }
             }
         }
 
