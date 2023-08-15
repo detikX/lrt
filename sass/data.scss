@@ -53,6 +53,25 @@
                 right: -1370px;
             }
         }
+
+        @keyframes bannermob {
+            0% {
+                transform: rotateY(180deg);
+                right: -1000px;
+            }
+            50% {
+                transform: rotateY(180deg);
+                right: 100%;
+            }
+            51% {
+                transform: rotateY(0deg);
+                right: calc(100% + 1000px);
+            }
+            100% {
+                transform: rotateY(0deg);
+                right: -1000px;
+            }
+        }
         .jemb {
             position: absolute;
             width: 100vw;
@@ -88,6 +107,7 @@
                 height: auto;
                 width: 180vw;
                 bottom: 130px;
+                animation-name: bannermob;
                 animation-duration: 25s;
             }
             img {
