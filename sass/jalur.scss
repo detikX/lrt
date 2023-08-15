@@ -59,7 +59,9 @@
         height: 100vh;
         z-index: 1;
         overflow-y: hidden;
-       
+        @media screen and (max-width:766px) {
+            overflow: hidden;
+        }
        
         &-1 {
             position: absolute;
