@@ -85,31 +85,24 @@
               bottom: 0px;
             }
             50% {
-              bottom: -10px;
+              bottom: 100px;
               
             }
           }
         &-3 {
             position: absolute;
             top: 0;
-            animation: kokpit 2s linear infinite;
+            // animation: kokpit 2s linear infinite;
             bottom: 0px;
             left: 0;
             right: 0;
             width: 100%;
             height: auto;
-            // &::before {
-            //     content: "";
-            //     position: absolute;
-            //     background: linear-gradient(to top,transparent, #d4e8f9);
-            //     top: 0;
-            //     left: 0;
-            //     right: 0;
-            //     height: 100px;
-            // }
+           
             @media screen and (max-width:766px) {
                 height: 160vh;
                 width: 150%;
+                bottom: 0px;
                 left: -30%;
                 right: 30%;
                 overflow-x: hidden;
